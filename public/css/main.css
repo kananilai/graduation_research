@@ -1,0 +1,33 @@
+#app{
+    display:flex;
+}
+/* --------- sidebar ---------*/
+.side{
+    background-color:#04f16b;
+    width: 10%;
+    height: 100vh;
+    padding:0;
+    align-items: center;
+    z-index: 10;
+}
+.sidebar_link:hover{
+    color:#fff;
+}
+.sidebar{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.sidebar_link{
+    text-decoration: none;
+    color: #342e37;
+}
+.fa-home{
+    padding-top: 20px;
+}
+.fas{
+    margin:20px 0;
+}
+
+

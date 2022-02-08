@@ -1,0 +1,28 @@
+.left_content{
+    margin-top:100px;
+}
+.data_contenet{
+    background-color: rgba(201, 144, 59, 0.644);
+    border-collapse: separate;
+	border-radius: 6px;
+}
+.data_contenet td{
+    padding:15px 25px;
+    font-size: 17px;
+}
+.data_contenet th{
+    padding:10px;
+    font-size: 23px;
+}
+.data_contenet  td:first-child{
+    font-size: 20px;
+    font-weight: bold;
+}
+.data_contenet td span{
+    width:90%;
+    background-color: #fff;
+    display: block;
+    padding:15px;
+    margin-right:5px;
+    border-radius: 7px;
+}

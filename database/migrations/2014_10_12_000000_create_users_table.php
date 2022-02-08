@@ -22,7 +22,6 @@ class CreateUsersTable extends Migration
             $table->string('gender');
             $table->date('birthday');
             $table->integer('height');
-            $table->string('img_path');
             $table->rememberToken();
             $table->timestamps();
         });
